@@ -1,0 +1,7 @@
+.impowerBox .title {display: none;}
+.status_icon {display:none}
+.impowerBox .status p{ display: none}
+.impowerBox .status {
+    padding: 7px 14px;
+    text-align: center;
+}

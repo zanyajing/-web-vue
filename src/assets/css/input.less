@@ -1,0 +1,35 @@
+.item{
+  position: relative;
+}
+.item input{
+  border: 1px solid rgb(221, 221, 221);
+  width: 380px;
+  font-size: 13px;
+  padding:18px 0 18px 20px;
+  border-radius: 5px;
+
+}
+
+.item input.error{
+  //border-color: red;
+}
+.item .error-msg{
+  height: 26px;
+  line-height: 26px;
+  opacity: 0;
+  text-align: left;
+  color: red;
+  transitionr: opacipt .3s;
+}
+.item div.error{
+  opacity: 1;
+}
+
+.item  .form-code {
+  width: 220px;
+  float: left;
+}
+input::-ms-clear,
+input::-ms-reveal{
+    display: none!important;
+}

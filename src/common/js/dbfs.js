@@ -1,0 +1,33 @@
+export const dbfsTextList = [{
+	value: '信用融资',
+	type: 0,
+	active: false
+}, {
+	value: '房产抵押',
+	type: 1,
+	active: false
+}, {
+	value: '应收账款',
+	type: 2,
+	active: false
+}, {
+	value: '采购订单',
+	type: 3,
+	active: false
+}, {
+	value: '商业承兑汇票',
+	type: 4,
+	active: false
+}, {
+	value: '公司担保',
+	type: 5,
+	active: false
+}, {
+	value: 'pos流水',
+	type: 6,
+	active: false
+}, {
+	value: '其他担保方式',
+	type: 7,
+	active: false
+}]
